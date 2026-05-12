@@ -1,0 +1,17 @@
+<div
+  class="layout-wrapper"
+  [ngClass]="containerClass"
+  style="background-color: #171718"
+>
+  <app-top-nav></app-top-nav>
+  <div class="layout-sidebar">
+    <app-side-nav></app-side-nav>
+  </div>
+  <div class="layout-main-container">
+    <div class="layout-main">
+      <app-loader></app-loader>
+      <ng-content></ng-content>
+    </div>
+    <div></div>
+  </div>
+</div>
