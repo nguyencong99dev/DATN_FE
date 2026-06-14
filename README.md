@@ -14,17 +14,40 @@ This is the frontend part corresponding to the backend repository **DATN_BE**. T
 - 📊 **Dashboard** - Administrative dashboard for management
 
 ## Technology Stack
+- **Angular 14** - Frontend framework
 - **TypeScript** - Primary programming language
-- **CSS** - Styling and layout
-- Modern frontend technologies and frameworks
+- **PrimeNG 14** - UI component library
+- **PrimeFlex** - CSS utility framework
+- **Chart.js** - Data visualization
+- **RxJS** - Reactive programming
 
 ## Links
 - **Backend Repository**: [DATN_BE](https://github.com/nguyencong99dev/DATN_BE)
 
 ## Installation Guide
 1. Clone the repository
-2. Install dependencies: `npm install`
-3. Start the application: `npm start`
+   ```bash
+   git clone https://github.com/nguyencong99dev/DATN_FE.git
+   cd DATN_FE/client
+   ```
+
+2. Install dependencies
+   ```bash
+   npm install
+   ```
+
+3. Start the application
+   ```bash
+   npm start
+   ```
+
+4. Open your browser and navigate to `http://localhost:4200`
+
+## Available Scripts
+- `npm start` - Run the development server
+- `npm run build` - Build for production
+- `npm run watch` - Build in watch mode
+- `npm test` - Run unit tests
 
 ## Getting Started
 For detailed setup instructions and contribution guidelines, please refer to the project documentation.
