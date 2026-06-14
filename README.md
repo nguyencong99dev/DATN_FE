@@ -18,16 +18,6 @@ This is the frontend part corresponding to the backend repository **DATN_BE**. T
 - **CSS** - Styling and layout
 - Modern frontend technologies and frameworks
 
-## Project Structure
-```
-DATN_FE/
-├── src/
-├── public/
-├── package.json
-├── tsconfig.json
-└── README.md
-```
-
 ## Links
 - **Backend Repository**: [DATN_BE](https://github.com/nguyencong99dev/DATN_BE)
 
